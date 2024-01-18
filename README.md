@@ -7,7 +7,7 @@ This Airflow DAG (Directed Acyclic Graph) automates the process of ingesting, tr
 The DAG assumes the following directory structure within the Airflow data directory:
 
 - `data`
-  - `datasource`: Directory for the source CSV file.
+  - `datasource`: Directory for the source CSV file. - in this case it is hard coded and needs to be data_source.csv
   - `raw`: Directory for the raw data extracted from the source file.
   - `curated`: Directory for the curated data after transformations.
   - `presentation`: Directory for the presentation data in JSON format.
